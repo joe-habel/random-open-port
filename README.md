@@ -5,7 +5,7 @@ tracked identified as a known port in <https://en.wikipedia.org/wiki/List_of_TCP
 
 ## Installation
 
-```pip install random-open-port```
+```pip3 install random-open-port```
 
 ### Requirements
 
