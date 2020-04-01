@@ -8,7 +8,7 @@ with open("requirements.txt", 'r') as rqtxt:
     
 setup(
     name="random-open-port",
-    version="0.0.2",
+    version="0.0.3",
     description="A simple command line tool for generating a random non-affiliated port.",
     author="Joe Habel",
     author_email="habeljw@gmail.com",

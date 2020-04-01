@@ -102,7 +102,7 @@ def get_wiki_ports(which_ports='static'):
         raise ValueError("Expected either %s; got %s."%(opts, which_ports))
     
     url = "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers"
-    response = requests.get(url)
+    response = requests.get(url, timeout=5)
     soup = BeautifulSoup(response.content, 'html.parser')
     
     tables = soup.find_all('table', attrs={"class" : "wikitable"})
